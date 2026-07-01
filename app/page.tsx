@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 const GITHUB_URL = "https://github.com/ecoutelabs/ecoute";
+const RELEASE_URL = "https://github.com/ecoutelabs/ecoute/releases/latest";
 
 const Logo = ({ className }: { className?: string }) => (
     <svg className={className} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 78.73 140.18">
@@ -54,12 +55,12 @@ export default function Home() {
                         A music player for albums.
                     </p>
                     <a
-                        href={GITHUB_URL}
+                        href={RELEASE_URL}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="mt-2 font-carbon text-sm text-white/50 border border-white/20 px-5 py-2.5 hover:border-white/50 hover:text-white transition-colors"
                     >
-                        View on GitHub →
+                        Download →
                     </a>
                     <div className="mt-8 w-full">
                         <Image
@@ -106,12 +107,20 @@ export default function Home() {
                         macOS only. Unsigned — right-click and open on first launch.
                     </p>
                     <a
-                        href={GITHUB_URL}
+                        href={RELEASE_URL}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="font-carbon text-sm text-black bg-white px-6 py-3 hover:bg-white/80 transition-colors"
                     >
-                        View on GitHub →
+                        Download →
+                    </a>
+                    <a
+                        href={GITHUB_URL}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-carbon text-xs text-white/30 hover:text-white/60 transition-colors"
+                    >
+                        View source on GitHub →
                     </a>
                 </div>
             </section>
