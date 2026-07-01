@@ -103,9 +103,6 @@ export default function Home() {
                     <p className="font-carbon text-2xl md:text-3xl text-white">
                         Open source. Free to use.
                     </p>
-                    <p className="text-sm text-white/50 max-w-sm">
-                        macOS only. Unsigned — right-click and open on first launch.
-                    </p>
                     <a
                         href={RELEASE_URL}
                         target="_blank"
