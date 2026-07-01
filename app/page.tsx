@@ -11,7 +11,7 @@ const Logo = ({ className }: { className?: string }) => (
 const features = [
     {
         title: "Album-first.",
-        body: "Most players treat music as a flat track list. Écoute is built around albums as the primary unit — browse by cover art, play front to back, stop at the end.",
+        body: "Most players treat music as a flat track list. écoute is built around albums as the primary unit — browse by cover art, play front to back, stop at the end.",
     },
     {
         title: "Local files, no cloud.",
@@ -19,7 +19,7 @@ const features = [
     },
     {
         title: "Broad format support.",
-        body: "MP3, FLAC, ALAC, AAC, WAV, AIFF, OGG, Opus. If you have it, Écoute can play it.",
+        body: "MP3, FLAC, ALAC, AAC, WAV, AIFF, OGG, Opus. If you have it, écoute can play it.",
     },
     {
         title: "Last.fm scrobbling.",
@@ -48,7 +48,7 @@ export default function Home() {
                 <div className="relative z-10 flex flex-col items-center gap-6 text-center max-w-4xl w-full">
                     <Logo className="fill-white w-8" />
                     <h1 className="font-carbon text-5xl md:text-7xl text-white tracking-tight">
-                        Écoute
+                        écoute
                     </h1>
                     <p className="font-carbon text-xl md:text-2xl text-white/70">
                         A music player for albums.
@@ -64,7 +64,7 @@ export default function Home() {
                     <div className="mt-8 w-full rounded-sm overflow-hidden border border-white/10 shadow-2xl">
                         <Image
                             src="/mainview.png"
-                            alt="Écoute main view"
+                            alt="écoute main view"
                             width={1280}
                             height={800}
                             className="w-full h-auto"
@@ -119,7 +119,7 @@ export default function Home() {
             {/* Footer */}
             <footer className="bg-black border-t border-white/5 py-8 px-6 text-center">
                 <p className="text-xs text-white/30">
-                    <a href="https://ecoutelabs.com" className="hover:text-white/60 transition-colors">Écoute Labs</a>
+                    <a href="https://ecoutelabs.com" className="hover:text-white/60 transition-colors">écoute labs</a>
                     {" "}· © 2026
                 </p>
             </footer>

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: "Écoute — A music player for albums.",
+    title: "écoute — a music player for albums.",
     description: "A focused, album-centric music player for macOS. Local files only.",
 };
 
