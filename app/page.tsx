@@ -61,7 +61,7 @@ export default function Home() {
                     >
                         View on GitHub →
                     </a>
-                    <div className="mt-8 w-full rounded-sm overflow-hidden border border-white/10 shadow-2xl">
+                    <div className="mt-8 w-full">
                         <Image
                             src="/mainview.png"
                             alt="écoute main view"
